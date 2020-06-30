@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="myform">
+      Enter the number:
+      <input type="text" name="n" value="" />
+      <br /><br />
+      <input type="button" value="Check" onClick="powr()" />
+
+      <button onclick="function power()">power</button>
+      <button onclick="function square()">square</button>
+      <button onclick="function absolute()">absolute</button>
+    </form>
+    <script>
+      function power() {
+        n = document.myform.n.value;
+        n = parseInt(n);
+        value = math.pow(n, 2);
+        return value;
+        alert(value);
+      }
+      function square() {
+        n = document.myform.n.value;
+        n = parseInt(n);
+        value = math.sqrt(n);
+        return value;
+        alert(value);
+      }
+      function absolute() {
+        absolute = math.abs(9);
+        document.write(absolute);
+      }
+    </script>
+  </body>
+</html>

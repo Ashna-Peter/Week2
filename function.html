@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="function"></p>
+    <script>
+      function total(a, b, c) {
+        total = a + b + c;
+        return total;
+      }
+      function average(total) {
+        avg = total / 3;
+        return avg;
+      }
+      var x = total(85, 98, 95);
+      var y = average(total);
+      document.write(avg);
+      document.getElementById("function").innerHTML = x;
+    </script>
+  </body>
+</html>
