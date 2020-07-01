@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      try {
+        var pop = prompt("Enter the count of values in the series", " ");
+        var var1 = 0,
+          var2 = 1;
+        document.write("Here is the fibonacci series : ");
+        document.write("", var1, " ");
+        document.write("", var2, " ");
+        var counter, sum;
+        for (counter = 2; counter < pop; counter++) {
+          sum = var1 + var2;
+          document.write("", sum, " ");
+          var1 = var2;
+          var2 = var3;
+        }
+      } catch (err) {
+        document.getElementById("demo").innerHTML = "something went wrong";
+      }
+    </script>
+  </body>
+</html>

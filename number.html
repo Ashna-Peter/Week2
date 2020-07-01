@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+        function num(){
+            var num;
+            num = Number(document.getElementById("N").value);
+      
+          if (num <= 9) {
+            window.alert("not between 10 and 100");
+          }
+        
+        else if(10 >= num > 101) {
+            window.alert("not between 10 and 100");
+          }
+        else {
+            window.alert("not between 10 and 100");
+          }
+      }
+        
+    </script>
+  </head>
+  <body><h1>Whether a number is between 10 and 100 or not</h1>
+    Enter The Number :<input type="text" name="n" id = "N"/>
+    <hr color="cyan">
+    <br>
+    <center><button onClick="num()">CHECK</button></body>
+</html>
